@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class beecrowd_simpleproduct_1004 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int number1 = input.nextInt();
+        int number2 = input.nextInt();
+
+        input.close();
+
+        int prod = number1 * number2;
+
+        System.out.println("PROD = " + prod);
+    }
+}
+
+// está dando erro mais eu acho que é o exécircio
